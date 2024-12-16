@@ -1,0 +1,25 @@
+.image-container {
+    position: relative;
+  }
+  .arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  
+  .arrow-left, .arrow-right {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .arrow-left {
+    float: left;
+  }
+  
+  .arrow-right {
+    float: right;
+  }
+  
+  

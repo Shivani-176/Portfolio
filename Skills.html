@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Page</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(223, 195, 157); 
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: transparent; 
+            color: rgba(3, 48, 3, 0.861); 
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .skills-section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .skills-section h2 {
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: rgba(3, 48, 3, 0.861); 
+        }
+
+        .skill-category {
+            margin-bottom: 30px;
+        }
+
+        .skill-category h3 {
+            font-size: 24px;
+            color: rgba(3, 48, 3, 0.861); 
+            margin-bottom: 10px;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills-list li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #555;
+            padding-left: 10px;
+            position: relative;
+        }
+
+        .skills-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: rgba(3, 48, 3, 0.861);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Skills</h1>
+    </header>
+
+    <section class="skills-section">
+        <h2>Technical Skills</h2>
+
+        <!-- Programming Languages -->
+        <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <ul class="skills-list">
+                <li>C</li>
+                <li>C++</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-category">
+            <h3>Frameworks</h3>
+            <ul class="skills-list">
+                <li>Flask</li>
+                <li>Django</li>
+                <li>Bootstrap</li>
+            </ul>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-category">
+            <h3>Database</h3>
+            <ul class="skills-list">
+                <li>SQL</li>
+                <li>PL-SQL</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
